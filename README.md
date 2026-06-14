@@ -33,9 +33,9 @@ Most security tools either dump raw logs at you or charge enterprise prices for 
 
 ```
 ┌─────────────────┐         ┌─────────────────┐         ┌─────────────────┐
-│   Next.js       │  REST   │   FastAPI        │  SQL    │   PostgreSQL    │
-│   Frontend      │ ──────► │   Backend        │ ──────► │   Database      │
-│   (TypeScript)  │         │   (Python)       │         │                 │
+│   Next.js       │  REST   │   FastAPI       │  SQL    │   PostgreSQL    │
+│   Frontend      │ ──────► │   Backend       │ ──────► │   Database      │
+│   (TypeScript)  │         │   (Python)      │         │    (Neon)       │
 └─────────────────┘         └────────┬────────┘         └─────────────────┘
                                      │
                                      │ Groq API
